@@ -1,0 +1,49 @@
+extends base.pug
+
+block scripts 
+    script(src='../static/index.js')
+
+block style 
+    style 
+        include ../static/style.css
+
+block content 
+
+
+    section#introSection
+        div Welcome to my dance academy.
+        div eat, Sleep, Dance Reapet
+
+        
+    section#missionSection
+        h2 our missions
+        div.card 
+            h3 Dance perfection
+            div.card-box
+                div.card-img 
+                    img(src="http://source.unsplash.com/100x100/? Dancing,disco")
+                div.card-content 
+                    p This is the best dance academy.
+        div.card 
+            h3 Dance the way you like
+            div.card-box
+                div.card-img 
+                    img(src="http://source.unsplash.com/100x100/? Dancing,farewell")
+                div.card-content 
+                    p This is the best dance academy.
+        div.card 
+            h3 Expert Teaching
+            div.card-box
+                div.card-img 
+                    img(src="http://source.unsplash.com/100x100/? Dancing,club")
+                div.card-content 
+                    p This is the best dance academy.
+
+
+    section#sponcerSection 
+        h2 our sponsers
+        div#sponsors 
+            img(src="http://source.unsplash.com/150x150/? apple company,logo", Class="spImage")
+            img(src="http://source.unsplash.com/150x150/? microsoft company,logo", Class="spImage")
+            img(src="http://source.unsplash.com/150x150/? skype company,logo", Class="spImage")
+            img(src="http://source.unsplash.com/150x150/? google company,logo", Class="spImage")
